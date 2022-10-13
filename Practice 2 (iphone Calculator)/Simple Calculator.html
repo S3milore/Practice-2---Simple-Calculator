@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>
+      A Simple Calculator
+    </title>
+  </head>
+
+  <body>
+    <p id="result">
+      233
+    </p>
+    <table><tr>
+      <td><button class="lightgray" type="button" onclick="clr()">A/C</button></td>
+      <td><button class="lightgray" type="button" onclick="func()">+/-</button></td>
+      <td><button class="lightgray" type="button" onclick="func()">%</button></td>
+      <td><button class="orange" type="button" onclick="func()">÷</button></td>
+    </tr>
+   <tr>
+      <td><button class="grey" type="button" onclick="func()">7</button></td>
+      <td><button class="grey" type="button" onclick="func()">8</button></td>
+      <td><button class="grey" type="button" onclick="func()">9</button></td>
+      <td><button class="orange" type="button" onclick="func()">x</button></td>
+    </tr>
+   <tr>
+      <td><button class="grey" type="button" onclick="func()">4</button></td>
+      <td><button class="grey" type="button" onclick="func()">5</button></td>
+      <td><button class="grey" type="button" onclick="func()">6</button></td>
+      <td><button class="orange" type="button" onclick="func()">-</button></td>
+    </tr>
+    <tr>
+      <td><button class="grey" type="button" onclick="func()">1</button></td>
+      <td><button class="grey" type="button" onclick="func()">2</button></td>
+      <td><button class="grey" type="button" onclick="func()">3</button></td>
+      <td><button class="orange" type="button" onclick="func()">+</button></td>
+    </tr>
+    </table>
+      <table>
+     <tr>
+    <td><button class="zero" type="button" onclick="func()">0</button></td>
+      <td><button class="grey" type="button" onclick="func()">.</button></td>
+      <td><button class="orange" type="button" onclick="func()">=</button></td>
+    </tr>
+    </table>
+    <script>
+    function clr(){
+document.getElementById("result").innerHTML="0";
+}
+
+      </script> 
+        </body></html>
