@@ -47,14 +47,16 @@
 }
 #result{
   color: white;
-  padding: 25px;
+  padding: 10px 10px 20px 10px;
   background-color:black;
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
   text-align:right;
   border: none;
-  margin:20px;
 }
 body{
   background-color:black;
+ }
+ .all{
+   
  }
