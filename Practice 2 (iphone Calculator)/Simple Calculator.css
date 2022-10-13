@@ -1,58 +1,60 @@
+.lightgray{
+  width: 100px;
+  height:100px;
+  padding: 20px 40px;
+  background-color:#D4D4D2;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+}
+.orange{
+  width: 100px;
+  height:100px;
+  padding: 20px 40px;
+  background-color: #FF9500;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+  margin:0px;
+}
+.grey{
+  width: 100px;
+  height:100px;
+  padding: 20px 40px;
+  background-color:#505050;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  /*font-family:helvetica;*/
+  text-align:center;
+  border: none;
+  border-radius: 100px;
+}
+.zero{
+  width: 100px;
+  height:100px;
+  padding: 20px 100px;
+  background-color:#505050;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  border-radius: 100px;
+}
+#result{
+  color: white;
+  padding: 25px;
+  background-color:black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align:right;
+  border: none;
+  margin:20px;
+}
 body{
-    background-color:black;
-  }
-  .lightgray{
-    width: 100px;
-    height:100px;
-    padding: 20px 40px;
-    background-color:#D4D4D2;
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    font-family:helvetica;
-    border: none;
-    border-radius: 100px;
-  }
-  .orange{
-    width: 100px;
-    height:100px;
-    padding: 20px 40px;
-    background-color: #FF9500;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    font-family:helvetica;
-    border: none;
-    border-radius: 100px;
-    margin:0px;
-  }
-  .grey{
-    width: 100px;
-    height:100px;
-    padding: 20px 40px;
-    background-color:#505050;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    font-family:helvetica;
-    text-align:center;
-    border: none;
-    border-radius: 100px;
-  }
-  .zero{
-    width: 100px;
-    height:100px;
-    padding: 20px 100px;
-    background-color:#505050;
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-    font-family:helvetica;
-    border: none;
-    border-radius: 100px;
-  }
-  #result{
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-  }
+  background-color:black;
+ }
