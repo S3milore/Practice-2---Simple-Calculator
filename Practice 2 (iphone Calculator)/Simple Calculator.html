@@ -7,44 +7,44 @@
   </head>
 
   <body>
-    <div class="all">
-        
+  <div class="all">
+      <div>
         <input id="result" value="1">
-      
     <div >
     <table>
       <tr>
         <td><button class="lightgray" type="button" onclick="clr()">A/C</button></td>
-        <td><button class="lightgray" type="button" onclick="func()">+/-</button></td>
-        <td><button class="lightgray" type="button" onclick="func()">%</button></td>
-        <td><button class="orange" type="button" onclick="func()">÷</button></td>
+        <td><button class="lightgray" type="button" onclick="dis('+')">+/-</button></td>
+        <td><button class="lightgray" type="button" onclick="dis('%')">%</button></td>
+        <td><button class="orange" type="button" onclick="dis('/')">÷</button></td>
       </tr>
       <tr>
-        <td><button class="grey" type="button" onclick="seven()">7</button></td>
-        <td><button class="grey" type="button" onclick="eight()">8</button></td>
-        <td><button class="grey" type="button" onclick="nine()">9</button></td>
-        <td><button class="orange" type="button" onclick="func()">&times</button></td>
+        <td><button class="grey" type="button" onclick="dis('7')">7</button></td>
+        <td><button class="grey" type="button" onclick="dis('8')">8</button></td>
+        <td><button class="grey" type="button" onclick="dis('9')">9</button></td>
+        <td><button class="orange" type="button" onclick="dis('*')">&times</button></td>
       </tr>
       <tr>
-        <td><button class="grey" type="button" onclick="four()">4</button></td>
-        <td><button class="grey" type="button" onclick="five()">5</button></td>
-        <td><button class="grey" type="button" onclick="six()">6</button></td>
-        <td><button class="orange" type="button" onclick="func()">-</button></td>
+        <td><button class="grey" type="button" onclick="dis('4')">4</button></td>
+        <td><button class="grey" type="button" onclick="dis('5')">5</button></td>
+        <td><button class="grey" type="button" onclick="dis('6')">6</button></td>
+        <td><button class="orange" type="button" onclick="dis('-'')">-</button></td>
       </tr>
       <tr>
-        <td><button class="grey" type="button" onclick="one()">1</button></td>
-        <td><button class="grey" type="button" onclick="two()">2</button></td>
-        <td><button class="grey" type="button" onclick="three()">3</button></td>
-        <td><button class="orange" type="button" onclick="func()">+</button></td>
+        <td><button class="grey" type="button" onclick="dis('1')">1</button></td>
+        <td><button class="grey" type="button" onclick="dis('2')">2</button></td>
+        <td><button class="grey" type="button" onclick="dis('3')">3</button></td>
+        <td><button class="orange" type="button" onclick="dis('+')">+</button></td>
       </tr>
     </table>
     <table>
       <tr>
-        <td><button class="zero" type="button" onclick="zero()">0</button></td>
-        <td><button class="grey" type="button" onclick="decimal()">.</button></td>
-        <td><button class="orange" type="button" onclick="func()">=</button></td>
+        <td><button class="zero" type="button" onclick="dis('0')">0</button></td>
+        <td><button class="grey" type="button" onclick="dis('.')">.</button></td>
+        <td><button class="orange" type="button" onclick="result()">=</button></td>
       </tr>
     </table>
+    </div>
     </div>
     </div>
   </body>
