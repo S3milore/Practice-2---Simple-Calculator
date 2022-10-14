@@ -47,7 +47,8 @@
 }
 #result{
   color: white;
-  padding: 10px 10px 20px 10px;
+  width:75%;
+  height:25%;
   background-color:black;
   font-size: 40px;
   font-weight: bold;
